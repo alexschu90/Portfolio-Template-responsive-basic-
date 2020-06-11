@@ -104,16 +104,19 @@ input {
 
 @media screen and (max-width: 980px) {
     section {
-        max-width: 800px;
+        max-width: 700px;
     }
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        position: static; 
+    }
     section {
-        max-width: 650px;
+        max-width: 580px;
     }
     .content-top {
-        width: 650px;
+        width: 600px;
     }
     img {
         width: 200px; 
@@ -145,7 +148,7 @@ input {
          float: left; 
      }
      section {
-         max-width: 500px; 
+         max-width: 400px; 
          padding-top: 0px; 
      }
     }
